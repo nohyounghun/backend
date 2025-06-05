@@ -16,7 +16,7 @@ const connection = mysql.createConnection({
     host: 'database',
     user: 'root',
     password: '1234',
-    database: 'database'
+    database: 'kdt'
 });
 //2. mysql db접속시 오류가 나면 에러 출력, 성공하면 성공 표시
 connection.connect((err) => {

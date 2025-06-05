@@ -13,7 +13,7 @@ app.use(express.json());
 
 //1. musql db연결 정보 세팅
 const connection = mysql.createConnection({
-    host: 'localhost',
+    host: 'database:3306',
     user: 'root',
     password: '1234',
     database: 'kdt'
